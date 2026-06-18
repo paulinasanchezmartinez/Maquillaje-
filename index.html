@@ -5,83 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pau Sanchez - Makeup Store</title>
     <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #fff5f5;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background: linear-gradient(135deg, #ff758c 0%, #ff7eb3 100%);
-            color: white;
-            text-align: center;
-            padding: 3rem 1rem;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2.5rem;
-        }
-        header p {
-            font-size: 1.1rem;
-            opacity: 0.9;
-        }
-        .container {
-            max-width: 1000px;
-            margin: 2rem auto;
-            padding: 0 1rem;
-        }
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 2rem;
-        }
-        .card {
-            background: white;
-            border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
-            overflow: hidden;
-            text-align: center;
-            padding: 1.5rem;
-            transition: transform 0.3s;
-        }
-        .card h3 {
-            margin: 10px 0;
-            color: #ff758c;
-        }
-        .precio {
-            font-size: 1.3rem;
-            font-weight: bold;
-            color: #444;
-            margin: 10px 0;
-        }
-        .btn-comprar {
-            display: inline-block;
-            background-color: #25D366;
-            color: white;
-            text-decoration: none;
-            padding: 0.8rem 1.5rem;
-            border-radius: 25px;
-            font-weight: bold;
-            margin-top: 10px;
-            transition: background 0.3s;
-        }
-        .btn-comprar:hover {
-            background-color: #128C7E;
-        }
-        footer {
-            text-align: center;
-            padding: 2rem;
-            background-color: #333;
-            color: white;
-            margin-top: 3rem;
-        }
+        body { font-family: sans-serif; background-color: #fff5f5; color: #333; margin: 0; padding: 0; }
+        header { background: linear-gradient(135deg, #ff758c 0%, #ff7eb3 100%); color: white; text-align: center; padding: 3rem 1rem; }
+        .container { max-width: 1000px; margin: 2rem auto; padding: 0 1rem; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; }
+        .card { background: white; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); text-align: center; padding: 1.5rem; }
+        .precio { font-size: 1.3rem; font-weight: bold; color: #444; margin: 10px 0; }
+        .btn-comprar { display: inline-block; background-color: #25D366; color: white; text-decoration: none; padding: 0.8rem 1.5rem; border-radius: 25px; font-weight: bold; }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>💄 Pau Sanz - Tienda de maquillaje</h1>
+        <h1>💄 Pau Sanz - Makeup Store</h1>
         <p>¡Compra tus productos favoritos y apóyame a recaudar fondos para mi graduación de Ingeniería! 🎓✨</p>
     </header>
 
@@ -90,52 +26,31 @@
         
         <div class="grid">
             
-            <!-- PRODUCTO 1 -->
             <div class="card">
                 <h3>Labial Matte Larga Duración</h3>
-                <p>Tonos hermosos de alta pigmentación que no resecan tus labios.</p>
                 <div class="precio">$120 MXN</div>
-                <a href="https://wa.me/523321585701?text=Hola%20Pau!%20Me%20interesa%20comprar%20el%20Labial%20Matte%20Larga%20Duracion" target="_blank" class="btn-comprar">
-                    Comprar por WhatsApp 🛍️
-                </a>
+                <a href="https://wa.me/523321585701" target="_blank" class="btn-comprar">Comprar por WhatsApp 🛍️</a>
             </div>
 
-            <!-- PRODUCTO 2 -->
             <div class="card">
                 <h3>Paleta de Sombras Nude</h3>
-                <p>12 colores altamente combinables para looks de día y de noche.</p>
                 <div class="precio">$250 MXN</div>
-                <a href="https://wa.me/523321585701?text=Hola%20Pau!%20Me%20interesa%20comprar%20la%20Paleta%20de%20Sombras%20Nude" target="_blank" class="btn-comprar">
-                    Comprar por WhatsApp 🛍️
-                </a>
+                <a href="https://wa.me/523321585701" target="_blank" class="btn-comprar">Comprar por WhatsApp 🛍️</a>
             </div>
 
-            <!-- PRODUCTO 3 -->
             <div class="card">
                 <h3>Set de Brochas Profesionales</h3>
-                <p>5 brochas súper suaves para un difuminado perfecto de ojos y rostro.</p>
                 <div class="precio">$180 MXN</div>
-                <a href="https://wa.me/523321585701?text=Hola%20Pau!%20Me%20interesa%20comprar%20el%20Set%20de%20Brochas" target="_blank" class="btn-comprar">
-                    Comprar por WhatsApp 🛍️
-                </a>
+                <a href="https://wa.me/523321585701" target="_blank" class="btn-comprar">Comprar por WhatsApp 🛍️</a>
             </div>
 
-            <!-- PRODUCTO 4 -->
             <div class="card">
-                <h3>Máscara de Pestañas Voluminizadora</h3>
-                <p>Efecto pestañas postizas, a prueba de agua y de larga duración.</p>
+                <h3>Máscara de Pestañas</h3>
                 <div class="precio">$110 MXN</div>
-                <a href="https://wa.me/523321585701?text=Hola%20Pau!%20Me%20interesa%20comprar%20la%20Mascara%20de%20Pestañas" target="_blank" class="btn-comprar">
-                    Comprar por WhatsApp 🛍️
-                </a>
+                <a href="https://wa.me/523321585701" target="_blank" class="btn-comprar">Comprar por WhatsApp 🛍️</a>
             </div>
 
         </div>
     </div>
-
-    <footer>
-        <p>© 2026 - Creado con amor para mi meta de graduación. ¡Gracias por tu apoyo! 👩‍🎓❤️</p>
-    </footer>
-
 </body>
 </html>
